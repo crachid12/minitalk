@@ -6,13 +6,13 @@
 /*   By: crachid- <crachid-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/10 19:11:03 by crachid-          #+#    #+#             */
-/*   Updated: 2024/12/14 22:18:43 by crachid-         ###   ########.fr       */
+/*   Updated: 2025/03/24 18:22:22 by crachid-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "./ft_printf.h"
 
-int	ft_putchar(int c)
+int	ft_putchar(int fd, int c)
 {
-	return (write(1, &c, 1));
+	return (write(fd, &c, 1));
 }

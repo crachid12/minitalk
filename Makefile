@@ -6,12 +6,12 @@
 #    By: crachid- <crachid-@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/03/13 20:07:51 by crachid-          #+#    #+#              #
-#    Updated: 2025/03/20 11:58:08 by crachid-         ###   ########.fr        #
+#    Updated: 2025/03/24 21:14:32 by crachid-         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 
-CC = gcc
+CC = cc
 CFLAGS = -Wall -Wextra -Werror
 CLIENT = client
 SERVER = server
